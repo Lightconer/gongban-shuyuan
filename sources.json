@@ -1,9 +1,9 @@
 {
   "project": "合规公版书源（GongBan ShuYuan）",
-  "updated_at": "2026-08-27T17:37:53Z",
+  "updated_at": "2026-08-27T17:47:24Z",
   "summary": {
-    "total": 38,
-    "ok": 38,
+    "total": 30,
+    "ok": 30,
     "fail": 0
   },
   "results": [
@@ -36,9 +36,9 @@
     },
     {
       "title": "三国演义",
-      "url": "https://zh.wikisource.org/wiki/三國演義",
+      "url": "https://www.gutenberg.org/ebooks/23950",
       "category": "四大名著",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
@@ -89,37 +89,28 @@
       "reason": ""
     },
     {
-      "title": "聊斋志异",
-      "url": "https://zh.wikisource.org/wiki/聊齋誌異",
-      "category": "古典小说",
-      "site": "wikisource",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
-    },
-    {
       "title": "官场现形记",
-      "url": "https://zh.wikisource.org/wiki/官場現形記",
+      "url": "https://www.gutenberg.org/ebooks/54756",
       "category": "古典小说",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
     },
     {
       "title": "二十年目睹之怪现状",
-      "url": "https://zh.wikisource.org/wiki/二十年目睹之怪現狀",
+      "url": "https://www.gutenberg.org/ebooks/24099",
       "category": "古典小说",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
     },
     {
       "title": "孽海花",
-      "url": "https://zh.wikisource.org/wiki/孽海花",
+      "url": "https://www.gutenberg.org/ebooks/25128",
       "category": "古典小说",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
@@ -162,9 +153,9 @@
     },
     {
       "title": "二刻拍案惊奇",
-      "url": "https://zh.wikisource.org/wiki/二刻拍案驚奇",
+      "url": "https://www.gutenberg.org/ebooks/26729",
       "category": "话本传奇",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
@@ -188,64 +179,46 @@
       "reason": ""
     },
     {
-      "title": "孟子",
-      "url": "https://zh.wikisource.org/wiki/孟子",
-      "category": "经史子集",
-      "site": "wikisource",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
-    },
-    {
       "title": "庄子",
-      "url": "https://zh.wikisource.org/wiki/莊子",
+      "url": "https://www.gutenberg.org/ebooks/59709",
       "category": "经史子集",
-      "site": "wikisource",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
-    },
-    {
-      "title": "周易",
-      "url": "https://zh.wikisource.org/wiki/周易",
-      "category": "经史子集",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
     },
     {
       "title": "孙子兵法",
-      "url": "https://zh.wikisource.org/wiki/孫子兵法",
+      "url": "https://www.gutenberg.org/ebooks/23864",
       "category": "经史子集",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
     },
     {
       "title": "菜根谭",
-      "url": "https://zh.wikisource.org/wiki/菜根譚",
+      "url": "https://www.gutenberg.org/ebooks/24050",
       "category": "经史子集",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
     },
     {
       "title": "世说新语",
-      "url": "https://zh.wikisource.org/wiki/世說新語",
+      "url": "https://www.gutenberg.org/ebooks/24047",
       "category": "经史子集",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
     },
     {
       "title": "山海经",
-      "url": "https://zh.wikisource.org/wiki/山海經",
+      "url": "https://www.gutenberg.org/ebooks/25288",
       "category": "经史子集",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
@@ -260,19 +233,10 @@
       "reason": ""
     },
     {
-      "title": "资治通鉴",
-      "url": "https://zh.wikisource.org/wiki/資治通鑑",
-      "category": "史籍",
-      "site": "wikisource",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
-    },
-    {
       "title": "左传",
-      "url": "https://zh.wikisource.org/wiki/左傳",
+      "url": "https://www.gutenberg.org/ebooks/24136",
       "category": "史籍",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
@@ -287,64 +251,28 @@
       "reason": ""
     },
     {
-      "title": "楚辞",
-      "url": "https://zh.wikisource.org/wiki/楚辭",
-      "category": "诗词歌赋",
-      "site": "wikisource",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
-    },
-    {
-      "title": "唐诗三百首",
-      "url": "https://zh.wikisource.org/wiki/唐詩三百首",
-      "category": "诗词歌赋",
-      "site": "wikisource",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
-    },
-    {
       "title": "呐喊",
-      "url": "https://zh.wikisource.org/wiki/吶喊",
+      "url": "https://www.gutenberg.org/ebooks/27166",
       "category": "现代公版·鲁迅",
-      "site": "wikisource",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
-    },
-    {
-      "title": "彷徨",
-      "url": "https://zh.wikisource.org/wiki/彷徨",
-      "category": "现代公版·鲁迅",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
     },
     {
       "title": "朝花夕拾",
-      "url": "https://zh.wikisource.org/wiki/朝花夕拾",
+      "url": "https://www.gutenberg.org/ebooks/25271",
       "category": "现代公版·鲁迅",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""
     },
     {
       "title": "野草",
-      "url": "https://zh.wikisource.org/wiki/野草",
+      "url": "https://www.gutenberg.org/ebooks/25242",
       "category": "现代公版·鲁迅",
-      "site": "wikisource",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
-    },
-    {
-      "title": "坟",
-      "url": "https://zh.wikisource.org/wiki/墳",
-      "category": "现代公版·鲁迅",
-      "site": "wikisource",
+      "site": "gutenberg",
       "status": "ok",
       "http_code": 200,
       "reason": ""

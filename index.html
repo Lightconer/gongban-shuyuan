@@ -34,7 +34,7 @@
 <div class="wrap">
   <header>
     <h1>合规公版书源 · 自动校验状态页</h1>
-    <p class="sub">仅收录公有领域 / 开放许可中文古籍与经典（维基文库 / Project Gutenberg），由 GitHub Actions 定时自动校验并更新。</p>
+    <p class="sub">仅收录公有领域 / 开放许可中文古籍与经典（Project Gutenberg），由 GitHub Actions 定时自动校验并更新。</p>
   </header>
 
   <div class="badges" id="badges">加载中…</div>
@@ -47,15 +47,12 @@
   <div class="card">
     <h2>如何在阅读 App 中使用</h2>
     <ol>
-      <li>下载书源文件（任选其一或都导入）：
-        <br>· <a id="srcLink" href="书源/公版古籍_维基文库.json" download>公版古籍_维基文库.json</a>（章节化，适合整本长篇小说）
-        <br>· <a href="书源/Gutenberg_公版中文书.json" download>Gutenberg_公版中文书.json</a>（国内可达，可直接搜索公版书）
-      </li>
+      <li>下载书源文件：<a id="srcLink" href="书源/Gutenberg_公版中文书.json" download>Gutenberg_公版中文书.json</a>（或复制本仓库 raw / Pages 上的直链）</li>
       <li>阅读 App（如 Legado/阅读）→ 我的 → 书源管理 → 右上角菜单 → <b>网络导入</b>，粘贴书源 JSON 直链。</li>
-      <li>也可在书源内直接输入公版书籍页面地址打开对应书籍（如 https://zh.wikisource.org/wiki/紅樓夢 或 https://www.gutenberg.org/ebooks/24264 ）。</li>
+      <li>在书源内搜索书名（如「红楼梦」），打开后点「Plain Text UTF-8」进入纯文本在线阅读。</li>
       <li>规则为 v0.1，个别书籍结构特殊时可在书源管理里微调。</li>
     </ol>
-    <p class="muted">网络提示：本机实测维基文库在部分国内网络不可达，若无法访问请改用 Gutenberg 书源；GitHub Actions 运行在境外服务器，两类来源都会被正常校验。</p>
+    <p class="muted">来源 Project Gutenberg 为公有领域电子书，免登录、免费，国内网络可直接访问。</p>
   </div>
 
   <div class="card">
@@ -71,7 +68,7 @@ function esc(s) {
     return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
   });
 }
-function siteName(s) { return s === "gutenberg" ? "Gutenberg" : "维基文库"; }
+function siteName(s) { return "Gutenberg"; }
 fetch("sources.json").then(function (r) { return r.json(); }).then(function (data) {
   var ok = data.summary.ok, fail = data.summary.fail;
   var ts = (data.updated_at || "").replace("T", " ").slice(0, 19);

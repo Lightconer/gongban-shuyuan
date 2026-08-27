@@ -4,10 +4,8 @@
 公版书源自动校验脚本（仅依赖 Python 标准库，零第三方依赖）
 
 功能：
-1. 读取 books.json（公有领域书单，按站点标记：wikisource / gutenberg）
-2. 按站点做针对性校验：
-   - wikisource：页面返回 200、包含正文容器(mw-parser-output)、非"页面不存在"(noarticletext)
-   - gutenberg：页面返回 200、包含书目记录区(bibrec)
+1. 读取 books.json（公有领域书单，来源：Project Gutenberg）
+2. 校验：页面返回 200、包含书目记录区(bibrec)、非"页面不存在"
 3. 生成 sources.json（机器可读校验状态，供 GitHub Pages 展示页读取）
 4. 生成 书单.md（带状态标记的人类可读清单）
 
@@ -34,10 +32,9 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 TIMEOUT = 15
 
 SITE_MARKERS = {
-    "wikisource": {"require": "mw-parser-output", "absent": "noarticletext"},
     "gutenberg": {"require": "bibrec", "absent": ""},
 }
-SITE_NAMES = {"wikisource": "维基文库", "gutenberg": "Gutenberg"}
+SITE_NAMES = {"gutenberg": "Gutenberg"}
 
 
 def now_iso():
@@ -57,7 +54,7 @@ def fetch(url):
 
 def check_book(book):
     url, title = book["url"], book["title"]
-    site = book.get("site", "wikisource")
+    site = book.get("site", "gutenberg")
     base = {"title": title, "url": url, "category": book.get("category", ""), "site": site}
     try:
         code, html = fetch(url)
@@ -67,7 +64,7 @@ def check_book(book):
         return {**base, "status": "fail", "http_code": 0, "reason": str(e)[:80]}
     if code != 200:
         return {**base, "status": "fail", "http_code": code, "reason": "非200响应"}
-    marker = SITE_MARKERS.get(site, SITE_MARKERS["wikisource"])
+    marker = SITE_MARKERS.get(site, SITE_MARKERS["gutenberg"])
     if marker["absent"] and marker["absent"] in html:
         return {**base, "status": "fail", "http_code": code,
                 "reason": "页面不存在(%s)" % marker["absent"]}
@@ -83,7 +80,7 @@ def write_md(results):
     lines = [
         "# 公版书单（自动校验）",
         "",
-        "> 本清单仅收录公有领域 / 开放许可中文文本（维基文库 / Project Gutenberg），自动校验由 GitHub Actions 定时执行。",
+        "> 本清单仅收录公有领域 / 开放许可中文文本（Project Gutenberg），自动校验由 GitHub Actions 定时执行。",
         "",
         "- 校验时间：%s（UTC）" % now_iso(),
         "- 正常：%d 本 / 异常：%d 本" % (len(ok), len(fail)),
