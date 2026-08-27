@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>合规公版书源 · 自动校验状态页</title>
+<style>
+  :root { --ink:#1f2933; --muted:#6b7280; --ok:#15803d; --fail:#b91c1c; --line:#e5e7eb; --bg:#f8faf8; --card:#ffffff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif; color:var(--ink); background:var(--bg); }
+  .wrap { max-width:880px; margin:0 auto; padding:32px 20px 64px; }
+  h1 { font-size:24px; margin:0 0 6px; }
+  .sub { color:var(--muted); font-size:14px; }
+  .badges { margin:16px 0; display:flex; gap:12px; flex-wrap:wrap; }
+  .badge { border-radius:999px; padding:4px 14px; font-size:13px; border:1px solid var(--line); background:var(--card); }
+  .badge b.ok { color:var(--ok); } .badge b.fail { color:var(--fail); }
+  table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  th,td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); font-size:14px; vertical-align:top; }
+  th { background:#f1f5f1; font-weight:600; }
+  tr:last-child td { border-bottom:none; }
+  .tag { font-size:12px; padding:2px 8px; border-radius:999px; white-space:nowrap; }
+  .tag.ok { background:#ecfdf3; color:var(--ok); }
+  .tag.fail { background:#fef2f2; color:var(--fail); }
+  .site { font-size:12px; color:var(--muted); }
+  a { color:#2563eb; text-decoration:none; } a:hover { text-decoration:underline; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:16px 18px; margin-top:24px; }
+  .card h2 { font-size:17px; margin:0 0 10px; }
+  code { background:#eef2ee; padding:2px 6px; border-radius:4px; font-size:13px; }
+  ol { margin:0; padding-left:20px; } li { margin:6px 0; font-size:14px; }
+  .muted { color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>合规公版书源 · 自动校验状态页</h1>
+    <p class="sub">仅收录公有领域 / 开放许可中文古籍与经典（维基文库 / Project Gutenberg），由 GitHub Actions 定时自动校验并更新。</p>
+  </header>
+
+  <div class="badges" id="badges">加载中…</div>
+
+  <table>
+    <thead><tr><th>书名</th><th>分类</th><th>站点</th><th>状态</th><th>链接</th></tr></thead>
+    <tbody id="rows"><tr><td colspan="5" class="muted">正在加载校验结果…</td></tr></tbody>
+  </table>
+
+  <div class="card">
+    <h2>如何在阅读 App 中使用</h2>
+    <ol>
+      <li>下载书源文件（任选其一或都导入）：
+        <br>· <a id="srcLink" href="书源/公版古籍_维基文库.json" download>公版古籍_维基文库.json</a>（章节化，适合整本长篇小说）
+        <br>· <a href="书源/Gutenberg_公版中文书.json" download>Gutenberg_公版中文书.json</a>（国内可达，可直接搜索公版书）
+      </li>
+      <li>阅读 App（如 Legado/阅读）→ 我的 → 书源管理 → 右上角菜单 → <b>网络导入</b>，粘贴书源 JSON 直链。</li>
+      <li>也可在书源内直接输入公版书籍页面地址打开对应书籍（如 https://zh.wikisource.org/wiki/紅樓夢 或 https://www.gutenberg.org/ebooks/24264 ）。</li>
+      <li>规则为 v0.1，个别书籍结构特殊时可在书源管理里微调。</li>
+    </ol>
+    <p class="muted">网络提示：本机实测维基文库在部分国内网络不可达，若无法访问请改用 Gutenberg 书源；GitHub Actions 运行在境外服务器，两类来源都会被正常校验。</p>
+  </div>
+
+  <div class="card">
+    <h2>自动更新机制</h2>
+    <p class="muted">仓库内 <code>.github/workflows/update.yml</code> 每天定时执行 <code>scripts/validate.py</code>，
+    按站点自动校验每本书是否可达、是否含有效正文，刷新本页数据与 <code>书单.md</code>；状态有变化时自动提交，并部署到 GitHub Pages。</p>
+  </div>
+</div>
+
+<script>
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+}
+function siteName(s) { return s === "gutenberg" ? "Gutenberg" : "维基文库"; }
+fetch("sources.json").then(function (r) { return r.json(); }).then(function (data) {
+  var ok = data.summary.ok, fail = data.summary.fail;
+  var ts = (data.updated_at || "").replace("T", " ").slice(0, 19);
+  document.getElementById("badges").innerHTML =
+    '<span class="badge">更新时间 <b>' + esc(ts) + ' (UTC)</b></span>' +
+    '<span class="badge">正常 <b class="ok">' + ok + '</b> 本</span>' +
+    '<span class="badge">异常 <b class="fail">' + fail + '</b> 本</span>';
+  document.getElementById("rows").innerHTML = data.results.map(function (r) {
+    var cls = r.status === "ok" ? "ok" : "fail";
+    var label = r.status === "ok" ? "正常" : "异常";
+    var reason = r.status === "ok" ? "" : '<div class="muted">' + esc(r.reason) + '</div>';
+    return "<tr><td>" + esc(r.title) + "</td><td>" + esc(r.category) + "</td>" +
+           '<td class="site">' + esc(siteName(r.site)) + "</td>" +
+           '<td><span class="tag ' + cls + '">' + label + "</span></td>" +
+           '<td><a href="' + esc(r.url) + '" target="_blank" rel="noopener">打开</a>' + reason + "</td></tr>";
+  }).join("");
+}).catch(function () {
+  document.getElementById("badges").innerHTML =
+    '<span class="badge">未加载到校验数据（请通过 GitHub Pages 访问本页）</span>';
+});
+</script>
+</body>
+</html>

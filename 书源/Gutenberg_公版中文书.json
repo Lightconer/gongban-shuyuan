@@ -1,0 +1,37 @@
+{
+  "bookSourceUrl": "https://www.gutenberg.org",
+  "bookSourceName": "Gutenberg·公版中文书",
+  "bookSourceGroup": "合规公版",
+  "bookSourceType": 0,
+  "bookSourceComment": "Project Gutenberg 公有领域电子书（中文公版典籍，如四大名著、诸子典籍等），免登录、免费，国内网络可直接访问。v0.1：请在阅读App内实测并微调规则。",
+  "bookSourceIcon": "",
+  "exploreUrl": "",
+  "searchUrl": "https://www.gutenberg.org/ebooks/search/?query={{key}}",
+  "ruleSearch": {
+    "bookList": "li.booklink",
+    "bookListIsCss": true,
+    "name": "span.title@text",
+    "author": "span.subtitle@text",
+    "bookUrl": "a.link@href",
+    "coverUrl": "img.cover-thumb@src",
+    "intro": ""
+  },
+  "ruleBookInfo": {
+    "init": "",
+    "name": "h1@text",
+    "author": "",
+    "coverUrl": "",
+    "intro": "div.summary@text"
+  },
+  "ruleToc": {
+    "chapterList": "a[href*=\"/cache/epub/\"][href$=\".txt\"]",
+    "chapterName": "@text",
+    "chapterUrl": "@href",
+    "nextTocUrl": ""
+  },
+  "ruleContent": {
+    "content": "@text",
+    "nextContentUrl": ""
+  },
+  "lastUpdateTime": "2026-08-28"
+}

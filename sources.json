@@ -1,0 +1,353 @@
+{
+  "project": "合规公版书源（GongBan ShuYuan）",
+  "updated_at": "2026-08-27T17:33:08Z",
+  "summary": {
+    "total": 38,
+    "ok": 16,
+    "fail": 22
+  },
+  "results": [
+    {
+      "title": "红楼梦",
+      "url": "https://www.gutenberg.org/ebooks/24264",
+      "category": "四大名著",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "西游记",
+      "url": "https://www.gutenberg.org/ebooks/23962",
+      "category": "四大名著",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "水浒传",
+      "url": "https://www.gutenberg.org/ebooks/23863",
+      "category": "四大名著",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "三国演义",
+      "url": "https://zh.wikisource.org/wiki/三國演義",
+      "category": "四大名著",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "儒林外史",
+      "url": "https://www.gutenberg.org/ebooks/24032",
+      "category": "古典小说",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "老残游记",
+      "url": "https://www.gutenberg.org/ebooks/23850",
+      "category": "古典小说",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "镜花缘",
+      "url": "https://www.gutenberg.org/ebooks/25377",
+      "category": "古典小说",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "封神演义",
+      "url": "https://www.gutenberg.org/ebooks/23910",
+      "category": "古典小说",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "东周列国志",
+      "url": "https://www.gutenberg.org/ebooks/25349",
+      "category": "古典小说",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "聊斋志异",
+      "url": "https://zh.wikisource.org/wiki/聊齋誌異",
+      "category": "古典小说",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "官场现形记",
+      "url": "https://zh.wikisource.org/wiki/官場現形記",
+      "category": "古典小说",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "二十年目睹之怪现状",
+      "url": "https://zh.wikisource.org/wiki/二十年目睹之怪現狀",
+      "category": "古典小说",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "孽海花",
+      "url": "https://zh.wikisource.org/wiki/孽海花",
+      "category": "古典小说",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "警世通言",
+      "url": "https://www.gutenberg.org/ebooks/24141",
+      "category": "话本传奇",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "醒世恒言",
+      "url": "https://www.gutenberg.org/ebooks/24239",
+      "category": "话本传奇",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "喻世明言",
+      "url": "https://www.gutenberg.org/ebooks/27582",
+      "category": "话本传奇",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "初刻拍案惊奇",
+      "url": "https://www.gutenberg.org/ebooks/57248",
+      "category": "话本传奇",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "二刻拍案惊奇",
+      "url": "https://zh.wikisource.org/wiki/二刻拍案驚奇",
+      "category": "话本传奇",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "论语",
+      "url": "https://www.gutenberg.org/ebooks/23839",
+      "category": "经史子集",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "道德经",
+      "url": "https://www.gutenberg.org/ebooks/7337",
+      "category": "经史子集",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "孟子",
+      "url": "https://zh.wikisource.org/wiki/孟子",
+      "category": "经史子集",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "庄子",
+      "url": "https://zh.wikisource.org/wiki/莊子",
+      "category": "经史子集",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "周易",
+      "url": "https://zh.wikisource.org/wiki/周易",
+      "category": "经史子集",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "孙子兵法",
+      "url": "https://zh.wikisource.org/wiki/孫子兵法",
+      "category": "经史子集",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "菜根谭",
+      "url": "https://zh.wikisource.org/wiki/菜根譚",
+      "category": "经史子集",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "世说新语",
+      "url": "https://zh.wikisource.org/wiki/世說新語",
+      "category": "经史子集",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "山海经",
+      "url": "https://zh.wikisource.org/wiki/山海經",
+      "category": "经史子集",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "史记",
+      "url": "https://www.gutenberg.org/ebooks/24226",
+      "category": "史籍",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "资治通鉴",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑",
+      "category": "史籍",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "左传",
+      "url": "https://zh.wikisource.org/wiki/左傳",
+      "category": "史籍",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "诗经",
+      "url": "https://www.gutenberg.org/ebooks/23873",
+      "category": "诗词歌赋",
+      "site": "gutenberg",
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
+    },
+    {
+      "title": "楚辞",
+      "url": "https://zh.wikisource.org/wiki/楚辭",
+      "category": "诗词歌赋",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "唐诗三百首",
+      "url": "https://zh.wikisource.org/wiki/唐詩三百首",
+      "category": "诗词歌赋",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "呐喊",
+      "url": "https://zh.wikisource.org/wiki/吶喊",
+      "category": "现代公版·鲁迅",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "彷徨",
+      "url": "https://zh.wikisource.org/wiki/彷徨",
+      "category": "现代公版·鲁迅",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "朝花夕拾",
+      "url": "https://zh.wikisource.org/wiki/朝花夕拾",
+      "category": "现代公版·鲁迅",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "野草",
+      "url": "https://zh.wikisource.org/wiki/野草",
+      "category": "现代公版·鲁迅",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "title": "坟",
+      "url": "https://zh.wikisource.org/wiki/墳",
+      "category": "现代公版·鲁迅",
+      "site": "wikisource",
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    }
+  ]
+}

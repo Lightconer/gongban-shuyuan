@@ -1,0 +1,54 @@
+{
+  "project": "合规公版书源（GongBan ShuYuan）",
+  "note": "本清单仅收录公有领域或开放许可的中文文本，不含任何受版权保护内容，无需登录、无需付费。站点：维基文库 zh.wikisource.org（公版古籍，章节化）；Project Gutenberg www.gutenberg.org（公版电子书，国内可达）。",
+  "sources": {
+    "wikisource": "https://zh.wikisource.org",
+    "gutenberg": "https://www.gutenberg.org"
+  },
+  "books": [
+    { "title": "红楼梦", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/24264", "category": "四大名著" },
+    { "title": "西游记", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/23962", "category": "四大名著" },
+    { "title": "水浒传", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/23863", "category": "四大名著" },
+    { "title": "三国演义", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/三國演義", "category": "四大名著" },
+
+    { "title": "儒林外史", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/24032", "category": "古典小说" },
+    { "title": "老残游记", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/23850", "category": "古典小说" },
+    { "title": "镜花缘", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/25377", "category": "古典小说" },
+    { "title": "封神演义", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/23910", "category": "古典小说" },
+    { "title": "东周列国志", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/25349", "category": "古典小说" },
+    { "title": "聊斋志异", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/聊齋誌異", "category": "古典小说" },
+    { "title": "官场现形记", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/官場現形記", "category": "古典小说" },
+    { "title": "二十年目睹之怪现状", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/二十年目睹之怪現狀", "category": "古典小说" },
+    { "title": "孽海花", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/孽海花", "category": "古典小说" },
+
+    { "title": "警世通言", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/24141", "category": "话本传奇" },
+    { "title": "醒世恒言", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/24239", "category": "话本传奇" },
+    { "title": "喻世明言", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/27582", "category": "话本传奇" },
+    { "title": "初刻拍案惊奇", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/57248", "category": "话本传奇" },
+    { "title": "二刻拍案惊奇", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/二刻拍案驚奇", "category": "话本传奇" },
+
+    { "title": "论语", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/23839", "category": "经史子集" },
+    { "title": "道德经", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/7337", "category": "经史子集" },
+    { "title": "孟子", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/孟子", "category": "经史子集" },
+    { "title": "庄子", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/莊子", "category": "经史子集" },
+    { "title": "周易", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/周易", "category": "经史子集" },
+    { "title": "孙子兵法", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/孫子兵法", "category": "经史子集" },
+    { "title": "菜根谭", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/菜根譚", "category": "经史子集" },
+    { "title": "世说新语", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/世說新語", "category": "经史子集" },
+    { "title": "山海经", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/山海經", "category": "经史子集" },
+
+    { "title": "史记", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/24226", "category": "史籍" },
+    { "title": "资治通鉴", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/資治通鑑", "category": "史籍" },
+    { "title": "左传", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/左傳", "category": "史籍" },
+
+    { "title": "诗经", "site": "gutenberg", "url": "https://www.gutenberg.org/ebooks/23873", "category": "诗词歌赋" },
+    { "title": "楚辞", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/楚辭", "category": "诗词歌赋" },
+    { "title": "唐诗三百首", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/唐詩三百首", "category": "诗词歌赋" },
+
+    { "title": "呐喊", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/吶喊", "category": "现代公版·鲁迅" },
+    { "title": "彷徨", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/彷徨", "category": "现代公版·鲁迅" },
+    { "title": "朝花夕拾", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/朝花夕拾", "category": "现代公版·鲁迅" },
+    { "title": "野草", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/野草", "category": "现代公版·鲁迅" },
+    { "title": "坟", "site": "wikisource", "url": "https://zh.wikisource.org/wiki/墳", "category": "现代公版·鲁迅" }
+  ]
+}
