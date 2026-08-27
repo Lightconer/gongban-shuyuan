@@ -1,10 +1,10 @@
 {
   "project": "合规公版书源（GongBan ShuYuan）",
-  "updated_at": "2026-08-27T17:48:44Z",
+  "updated_at": "2026-08-27T18:39:15Z",
   "summary": {
     "total": 30,
-    "ok": 30,
-    "fail": 0
+    "ok": 28,
+    "fail": 2
   },
   "results": [
     {
@@ -75,9 +75,9 @@
       "url": "https://www.gutenberg.org/ebooks/23910",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 504,
+      "reason": "HTTP 504"
     },
     {
       "title": "东周列国志",
@@ -93,9 +93,9 @@
       "url": "https://www.gutenberg.org/ebooks/54756",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 504,
+      "reason": "HTTP 504"
     },
     {
       "title": "二十年目睹之怪现状",
