@@ -1,10 +1,10 @@
 {
   "project": "合规公版书源（GongBan ShuYuan）",
-  "updated_at": "2026-08-27T17:33:08Z",
+  "updated_at": "2026-08-27T17:37:53Z",
   "summary": {
     "total": 38,
-    "ok": 16,
-    "fail": 22
+    "ok": 38,
+    "fail": 0
   },
   "results": [
     {
@@ -39,9 +39,9 @@
       "url": "https://zh.wikisource.org/wiki/三國演義",
       "category": "四大名著",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "儒林外史",
@@ -93,36 +93,36 @@
       "url": "https://zh.wikisource.org/wiki/聊齋誌異",
       "category": "古典小说",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "官场现形记",
       "url": "https://zh.wikisource.org/wiki/官場現形記",
       "category": "古典小说",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "二十年目睹之怪现状",
       "url": "https://zh.wikisource.org/wiki/二十年目睹之怪現狀",
       "category": "古典小说",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "孽海花",
       "url": "https://zh.wikisource.org/wiki/孽海花",
       "category": "古典小说",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "警世通言",
@@ -165,9 +165,9 @@
       "url": "https://zh.wikisource.org/wiki/二刻拍案驚奇",
       "category": "话本传奇",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "论语",
@@ -192,63 +192,63 @@
       "url": "https://zh.wikisource.org/wiki/孟子",
       "category": "经史子集",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "庄子",
       "url": "https://zh.wikisource.org/wiki/莊子",
       "category": "经史子集",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "周易",
       "url": "https://zh.wikisource.org/wiki/周易",
       "category": "经史子集",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "孙子兵法",
       "url": "https://zh.wikisource.org/wiki/孫子兵法",
       "category": "经史子集",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "菜根谭",
       "url": "https://zh.wikisource.org/wiki/菜根譚",
       "category": "经史子集",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "世说新语",
       "url": "https://zh.wikisource.org/wiki/世說新語",
       "category": "经史子集",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "山海经",
       "url": "https://zh.wikisource.org/wiki/山海經",
       "category": "经史子集",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "史记",
@@ -264,18 +264,18 @@
       "url": "https://zh.wikisource.org/wiki/資治通鑑",
       "category": "史籍",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "左传",
       "url": "https://zh.wikisource.org/wiki/左傳",
       "category": "史籍",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "诗经",
@@ -291,63 +291,63 @@
       "url": "https://zh.wikisource.org/wiki/楚辭",
       "category": "诗词歌赋",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "唐诗三百首",
       "url": "https://zh.wikisource.org/wiki/唐詩三百首",
       "category": "诗词歌赋",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "呐喊",
       "url": "https://zh.wikisource.org/wiki/吶喊",
       "category": "现代公版·鲁迅",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "彷徨",
       "url": "https://zh.wikisource.org/wiki/彷徨",
       "category": "现代公版·鲁迅",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "朝花夕拾",
       "url": "https://zh.wikisource.org/wiki/朝花夕拾",
       "category": "现代公版·鲁迅",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "野草",
       "url": "https://zh.wikisource.org/wiki/野草",
       "category": "现代公版·鲁迅",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "坟",
       "url": "https://zh.wikisource.org/wiki/墳",
       "category": "现代公版·鲁迅",
       "site": "wikisource",
-      "status": "fail",
-      "http_code": 0,
-      "reason": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     }
   ]
 }
