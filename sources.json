@@ -1,10 +1,10 @@
 {
   "project": "合规公版书源（GongBan ShuYuan）",
-  "updated_at": "2026-09-22T07:49:29Z",
+  "updated_at": "2026-09-23T07:51:42Z",
   "summary": {
     "total": 30,
-    "ok": 29,
-    "fail": 1
+    "ok": 30,
+    "fail": 0
   },
   "results": [
     {
@@ -174,9 +174,9 @@
       "url": "https://www.gutenberg.org/ebooks/7337",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "fail",
-      "http_code": 504,
-      "reason": "HTTP 504"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "庄子",
