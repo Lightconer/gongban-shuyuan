@@ -1,10 +1,10 @@
 {
   "project": "合规公版书源（GongBan ShuYuan）",
-  "updated_at": "2026-10-12T09:29:33Z",
+  "updated_at": "2026-10-13T09:36:21Z",
   "summary": {
     "total": 30,
-    "ok": 28,
-    "fail": 2
+    "ok": 23,
+    "fail": 7
   },
   "results": [
     {
@@ -21,9 +21,9 @@
       "url": "https://www.gutenberg.org/ebooks/23962",
       "category": "四大名著",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 504,
+      "reason": "HTTP 504"
     },
     {
       "title": "水浒传",
@@ -57,9 +57,9 @@
       "url": "https://www.gutenberg.org/ebooks/23850",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "fail",
-      "http_code": 504,
-      "reason": "HTTP 504"
+      "status": "ok",
+      "http_code": 200,
+      "reason": ""
     },
     {
       "title": "镜花缘",
@@ -102,18 +102,18 @@
       "url": "https://www.gutenberg.org/ebooks/24099",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 504,
+      "reason": "HTTP 504"
     },
     {
       "title": "孽海花",
       "url": "https://www.gutenberg.org/ebooks/25128",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 504,
+      "reason": "HTTP 504"
     },
     {
       "title": "警世通言",
@@ -183,9 +183,9 @@
       "url": "https://www.gutenberg.org/ebooks/59709",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 504,
+      "reason": "HTTP 504"
     },
     {
       "title": "孙子兵法",
@@ -255,18 +255,18 @@
       "url": "https://www.gutenberg.org/ebooks/27166",
       "category": "现代公版·鲁迅",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 504,
+      "reason": "HTTP 504"
     },
     {
       "title": "朝花夕拾",
       "url": "https://www.gutenberg.org/ebooks/25271",
       "category": "现代公版·鲁迅",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 504,
+      "reason": "HTTP 504"
     },
     {
       "title": "野草",
