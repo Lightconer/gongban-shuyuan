@@ -1,10 +1,10 @@
 {
   "project": "合规公版书源（GongBan ShuYuan）",
-  "updated_at": "2026-11-16T09:57:23Z",
+  "updated_at": "2026-11-17T10:54:04Z",
   "summary": {
     "total": 30,
-    "ok": 30,
-    "fail": 0
+    "ok": 0,
+    "fail": 30
   },
   "results": [
     {
@@ -12,270 +12,270 @@
       "url": "https://www.gutenberg.org/ebooks/24264",
       "category": "四大名著",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "西游记",
       "url": "https://www.gutenberg.org/ebooks/23962",
       "category": "四大名著",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "title": "水浒传",
       "url": "https://www.gutenberg.org/ebooks/23863",
       "category": "四大名著",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "三国演义",
       "url": "https://www.gutenberg.org/ebooks/23950",
       "category": "四大名著",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "儒林外史",
       "url": "https://www.gutenberg.org/ebooks/24032",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "老残游记",
       "url": "https://www.gutenberg.org/ebooks/23850",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "镜花缘",
       "url": "https://www.gutenberg.org/ebooks/25377",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "封神演义",
       "url": "https://www.gutenberg.org/ebooks/23910",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "东周列国志",
       "url": "https://www.gutenberg.org/ebooks/25349",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "官场现形记",
       "url": "https://www.gutenberg.org/ebooks/54756",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "二十年目睹之怪现状",
       "url": "https://www.gutenberg.org/ebooks/24099",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "孽海花",
       "url": "https://www.gutenberg.org/ebooks/25128",
       "category": "古典小说",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "警世通言",
       "url": "https://www.gutenberg.org/ebooks/24141",
       "category": "话本传奇",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "醒世恒言",
       "url": "https://www.gutenberg.org/ebooks/24239",
       "category": "话本传奇",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "喻世明言",
       "url": "https://www.gutenberg.org/ebooks/27582",
       "category": "话本传奇",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "初刻拍案惊奇",
       "url": "https://www.gutenberg.org/ebooks/57248",
       "category": "话本传奇",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "二刻拍案惊奇",
       "url": "https://www.gutenberg.org/ebooks/26729",
       "category": "话本传奇",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 0,
+      "reason": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "title": "论语",
       "url": "https://www.gutenberg.org/ebooks/23839",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "道德经",
       "url": "https://www.gutenberg.org/ebooks/7337",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "庄子",
       "url": "https://www.gutenberg.org/ebooks/59709",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "孙子兵法",
       "url": "https://www.gutenberg.org/ebooks/23864",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "菜根谭",
       "url": "https://www.gutenberg.org/ebooks/24050",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "世说新语",
       "url": "https://www.gutenberg.org/ebooks/24047",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "山海经",
       "url": "https://www.gutenberg.org/ebooks/25288",
       "category": "经史子集",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "史记",
       "url": "https://www.gutenberg.org/ebooks/24226",
       "category": "史籍",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "左传",
       "url": "https://www.gutenberg.org/ebooks/24136",
       "category": "史籍",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "诗经",
       "url": "https://www.gutenberg.org/ebooks/23873",
       "category": "诗词歌赋",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "呐喊",
       "url": "https://www.gutenberg.org/ebooks/27166",
       "category": "现代公版·鲁迅",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "朝花夕拾",
       "url": "https://www.gutenberg.org/ebooks/25271",
       "category": "现代公版·鲁迅",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     },
     {
       "title": "野草",
       "url": "https://www.gutenberg.org/ebooks/25242",
       "category": "现代公版·鲁迅",
       "site": "gutenberg",
-      "status": "ok",
-      "http_code": 200,
-      "reason": ""
+      "status": "fail",
+      "http_code": 503,
+      "reason": "HTTP 503"
     }
   ]
 }
